@@ -1,0 +1,12 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run Server",
+      "type": "node-terminal",
+      "request": "launch",
+      "command": "uv run manage.py runserver",
+      "cwd": "${workspaceFolder}"
+    }
+  ]
+}
