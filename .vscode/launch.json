@@ -21,6 +21,20 @@
       "request": "launch",
       "command": "uv run manage.py makemigrations",
       "cwd": "${workspaceFolder}"
+    },
+    {
+      "name": "Ruff: Check",
+      "type": "node-terminal",
+      "request": "launch",
+      "command": "uv run ruff check .",
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "name": "Ruff: Format",
+      "type": "node-terminal",
+      "request": "launch",
+      "command": "uv run ruff format .",
+      "cwd": "${workspaceFolder}"
     }
   ]
 }
