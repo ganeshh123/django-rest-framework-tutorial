@@ -23,6 +23,13 @@
       "cwd": "${workspaceFolder}"
     },
     {
+      "name": "Tests: Run All",
+      "type": "node-terminal",
+      "request": "launch",
+      "command": "uv run manage.py test",
+      "cwd": "${workspaceFolder}"
+    },
+    {
       "name": "Ruff: Check",
       "type": "node-terminal",
       "request": "launch",
